@@ -9,16 +9,25 @@ public class FeatureMax
             throw new ArgumentException("Tablica jest pusta lub niezainicjowana.");
         }
 
+<<<<<<< HEAD
         int max = tab[0];
         foreach (int liczba in tab)
         {
             if (liczba > max)
             {
                 max = liczba;
+=======
+        int maximum = array[0];
+        foreach (int num in array)
+        {
+            if (num > maximum)
+            {
+                maximum = num;
+>>>>>>> feature-new
             }
         }
 
-        return max;
+        return maximum;
     }
     
     
