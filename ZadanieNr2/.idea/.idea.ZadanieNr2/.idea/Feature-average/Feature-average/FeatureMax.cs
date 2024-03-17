@@ -10,11 +10,11 @@ public class FeatureMax
         }
 
         int max = array[0];
-        foreach (int num in array)
+        foreach (int liczba in array)
         {
-            if (num > max)
+            if (liczba > max)
             {
-                max = num;
+                max = liczba;
             }
         }
 

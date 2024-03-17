@@ -2,19 +2,33 @@
 
 public static class FeatureAverage
 {
-    public static double Average(int[] zbior)
+<<<<<<< HEAD
+    public static double Average(int[] array)
     {
-        if (zbior == null || zbior.Length == 0)
+        if (array == null || array.Length == 0)
+=======
+    public static double Average(int[] tab)
+    {
+        if (tab == null || tab.Length == 0)
+>>>>>>> feature-new
         {
             throw new ArgumentException("Tablica jest pusta lub niezainicjowana.");
         }
 
         int sum = 0;
-        foreach (int num in zbior)
+<<<<<<< HEAD
+        foreach (int num in array)
+=======
+        foreach (int num in tab)
+>>>>>>> feature-new
         {
             sum += num;
         }
 
-        return (double)sum / zbior.Length;
+<<<<<<< HEAD
+        return (double)sum / array.Length;
+=======
+        return (double)sum / tab.Length;
+>>>>>>> feature-new
     }
 }
