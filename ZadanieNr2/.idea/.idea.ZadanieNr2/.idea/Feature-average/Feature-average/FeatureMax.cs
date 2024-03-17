@@ -2,15 +2,15 @@
 
 public class FeatureMax
 {
-    public static int FindMaxValue(int[] array)
+    public static int FindMaxValue(int[] tab)
     {
-        if (array == null || array.Length == 0)
+        if (tab == null || tab.Length == 0)
         {
             throw new ArgumentException("Tablica jest pusta lub niezainicjowana.");
         }
 
-        int max = array[0];
-        foreach (int liczba in array)
+        int max = tab[0];
+        foreach (int liczba in tab)
         {
             if (liczba > max)
             {
